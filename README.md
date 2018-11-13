@@ -9,7 +9,7 @@
 >pip install opencv-python<br/>
 #### 对于屏幕的适配问题我采用的tkiner
 >import tkinter
-    win = tkinter.Tk()
-    # 获得设备的宽高
-    win_width = win.winfo_screenwidth()
-    win_height = win.winfo_screenheight()
+    win = tkinter.Tk()<br/>
+    # 获得设备的宽高<br/>
+    win_width = win.winfo_screenwidth()<br/>
+    win_height = win.winfo_screenheight()<br/>
