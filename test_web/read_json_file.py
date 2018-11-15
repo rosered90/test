@@ -7,3 +7,6 @@ with open('build.json', 'r', encoding='utf-8') as f:
 		print ('存在')
 	else:
 		print ('bucunzai不存在')
+
+
+
