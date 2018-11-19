@@ -1,9 +1,11 @@
 # _*_ coding:_*_
 # 大数求和
 import time
+
 num1="1234567890123"
 num2="11"
 
+startTime=time.time()
 #长度强行扭转到一致 不够前面补0
 max_len= len(num1) if len(num1)>len(num2) else len(num2)
 num1=num1.zfill(max_len)
