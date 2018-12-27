@@ -30,3 +30,4 @@ else:
 
 time.sleep(5)  # 间隔5个单位
 os.remove(QRImagePath)  # 删除图片
+
